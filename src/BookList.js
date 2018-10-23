@@ -25,7 +25,7 @@ class BookList extends React.Component {
     return (
       <div className="list-books">
         <div className="list-books-title">
-          <h1>MyReads</h1>
+          <h1>MY READS</h1>
         </div>
         <div className="list-books-content">
         {/*Display the three different shelves in main pages with its current books*/}
