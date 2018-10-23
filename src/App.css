@@ -5,18 +5,20 @@ body {
   line-height: 1.5;
 }
 body, .app {
-      background-image: url("http://images4.fanpop.com/image/photos/15800000/Wallpapers-books-to-read-15859038-1024-768.jpg");
+    background-image: url("http://images4.fanpop.com/image/photos/15800000/Wallpapers-books-to-read-15859038-1024-768.jpg");
+
 }
 
 /* main page */
 
 .list-books-title {
   padding: 10px 0;
-  background: #62aebf;
+  background-image: linear-gradient(to bottom, #4c3d1b, #68521b, #856918, #a38011, #c29800);
   text-align: center;
 }
 .list-books-title h1 {
   font-weight: 400;
+  letter-spacing: 5px;
   margin: 0;
   color: white;
 }
@@ -149,7 +151,7 @@ body, .app {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #62aebf;
+  background: #ce004f;
   background-image: url('./icons/arrow-drop-down.svg');
   background-repeat: no-repeat;
   background-position: center;
